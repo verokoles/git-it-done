@@ -87,9 +87,9 @@ var getRepoIssues = function (repo) {
         linkEl.textContent = "GitHub.com";
         linkEl.setAttribute("href", "https://gtihub.com/" + repo + "/issues");
         linkEl.setAttribute("target", "_blank");
-
         //append to warning container
         limitWarningEL.appendChild(linkEl);
     };
+    
 
 getRepoName();
